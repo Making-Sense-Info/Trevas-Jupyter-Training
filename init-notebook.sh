@@ -4,7 +4,7 @@
 REPO=Trevas-Jupyter-Training
 REPO_URL=https://github.com/Making-Sense-Info/${REPO}.git
 git clone $REPO_URL $ROOT_PROJECT_DIRECTORY/${REPO}
-chown -R onyxia:users $ROOT_PROJECT_DIRECTORY/${REPO}
+sudo chown -R onyxia:users $ROOT_PROJECT_DIRECTORY/${REPO}
 
 # Open the relevant notebook when starting Jupyter Lab
 jupyter server --generate-config
