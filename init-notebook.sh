@@ -1,9 +1,8 @@
 #!/bin/sh
 
-# Clone the repository in /home/jovyan/work
 REPO=Trevas-Jupyter-Training
 REPO_URL=https://github.com/Making-Sense-Info/${REPO}.git
-ROOT_PROJECT_DIRECTORY=/work
+ROOT_PROJECT_DIRECTORY=/home/onyxia/work
 git clone $REPO_URL ${ROOT_PROJECT_DIRECTORY}/${REPO}
 
 # Open the relevant notebook when starting Jupyter Lab
