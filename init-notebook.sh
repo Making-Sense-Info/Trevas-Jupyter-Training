@@ -3,6 +3,7 @@
 # Clone the repository in /home/jovyan/work
 REPO=Trevas-Jupyter-Training
 REPO_URL=https://github.com/Making-Sense-Info/${REPO}.git
+ROOT_PROJECT_DIRECTORY=/work
 sudo git clone $REPO_URL $ROOT_PROJECT_DIRECTORY/${REPO}
 sudo chown -R onyxia:users $ROOT_PROJECT_DIRECTORY/${REPO}
 
