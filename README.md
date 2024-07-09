@@ -2,4 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-VTL training project to embed in a Trevas Jupyter environnement
+VTL training project to embed in a Trevas Jupyter environnement.
+
+## Usage
+
+This project enable to initialize the content of [Trevas Jupyter](https://github.com/InseeFrLab/Trevas-Jupyter).
+
+Fill the `INIT_PROJECT_URL` environment variable with your script adress and run:
+
+```bash
+docker pull inseefrlab/trevas-jupyter:0.7.0
+docker run -p 8888:8888 -e INIT_PROJECT_URL="https://raw.githubusercontent.com/Making-Sense-Info/Trevas-Jupyter-Training/main/init-notebook.sh" inseefrlab/trevas-jupyter:0.7.0
+```
