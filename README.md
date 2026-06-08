@@ -11,6 +11,6 @@ This project enable to initialize the content of [Trevas Jupyter](https://github
 Fill the `INIT_PROJECT_URL` environment variable with your script adress and run:
 
 ```bash
-docker pull makingsenseinfo/trevas-jupyter:0.8.0
-docker run -p 8888:8888 -e INIT_PROJECT_URL="https://raw.githubusercontent.com/Making-Sense-Info/Trevas-Jupyter-Training/main/init-notebook.sh" makingsenseinfo/trevas-jupyter:0.8.0
+docker pull makingsenseinfo/trevas-jupyter:latest
+docker run -p 8888:8888 -e INIT_PROJECT_URL="https://raw.githubusercontent.com/Making-Sense-Info/Trevas-Jupyter-Training/main/init-notebook.sh" makingsenseinfo/trevas-jupyter:latest
 ```
