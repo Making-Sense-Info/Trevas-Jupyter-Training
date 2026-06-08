@@ -6,8 +6,8 @@ cd /home/onyxia/work
 git clone $REPO_URL
 
 # Clean
-rm LICENSE
-rm init-notebook.sh
+rm /home/onyxia/work/Trevas-Jupyter-Training/LICENSE
+rm /home/onyxia/work/Trevas-Jupyter-Training/init-notebook.sh
 
 # Open the relevant notebook when starting Jupyter Lab
 jupyter server --generate-config
