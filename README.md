@@ -4,9 +4,11 @@
 
 VTL training project to embed in a Trevas Jupyter environnement.
 
+
 ## Usage
 
 This project enable to initialize the content of [Trevas Jupyter](https://github.com/Making-Sense-Info/Trevas-Jupyter).
+
 
 Fill the `INIT_PROJECT_URL` environment variable with your script adress and run:
 
@@ -14,3 +16,5 @@ Fill the `INIT_PROJECT_URL` environment variable with your script adress and run
 docker pull makingsenseinfo/trevas-jupyter:latest
 docker run -p 8888:8888 -e INIT_PROJECT_URL="https://raw.githubusercontent.com/Making-Sense-Info/Trevas-Jupyter-Training/main/init-notebook.sh" makingsenseinfo/trevas-jupyter:latest
 ```
+
+Available scripts are VTL compliant, with, in addtion, [functions](https://github.com/Making-Sense-Info/Trevas-Jupyter#custom-functions) to interact with data.
