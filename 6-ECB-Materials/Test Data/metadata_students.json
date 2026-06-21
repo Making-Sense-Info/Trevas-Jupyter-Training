@@ -1,0 +1,39 @@
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "Student_Id",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "IDENTIFIER"
+    }
+  }, {
+    "name" : "First_name",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "MEASURE"
+    }
+  }, {
+    "name" : "Last_name",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "MEASURE"
+    }
+  },{
+    "name" : "Birthday",
+    "type" : "date",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "MEASURE"
+    }
+  }, {
+    "name" : "City",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "role" : "ATTRIBUTE"
+    }
+  } ]
+}

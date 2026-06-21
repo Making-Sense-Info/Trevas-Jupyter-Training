@@ -1,0 +1,46 @@
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "Student_Id",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "IDENTIFIER"
+    }
+  }, {
+    "name" : "Subject",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "IDENTIFIER"
+    }
+  }, {
+    "name" : "Semester",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "IDENTIFIER"
+    }
+  },{
+    "name" : "Grade",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : {
+      "role" : "MEASURE"
+    }
+  }, {
+    "name" : "School",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "role" : "ATTRIBUTE"
+    }
+  }, {
+    "name" : "Teacher",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "role" : "ATTRIBUTE"
+    }
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "Name",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "IDENTIFIER"
+    }
+  }, {
+    "name" : "Age",
+    "type" : "integer",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "MEASURE"
+    }
+  }, {
+    "name" : "Email",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "IDENTIFIER"
+    }
+  }, {
+    "name" : "Address",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "MEASURE"
+    }
+  }, {
+    "name" : "Date",
+    "type" : "date",
+    "nullable" : false,
+    "metadata" : {
+      "role" : "MEASURE"
+    }
+  } ]
+}
